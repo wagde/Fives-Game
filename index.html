@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>لعبة خمسات -Fives</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./public/css/css.css" />
+</head>
+<body>
+    <div class="cont">
+        <canvas id="myCanvas" width="500" height="500">
+            Your browser does not support the HTML5 canvas tag.</canvas>
+        <div class="name">
+            <label>Turn</label>
+            <p>
+                <span id="playername"></span>
+            </p>
+            <div id="toggel">
+                <label> Border Size</label>
+                <input id="size" type="range" name="quantity" min="2" max="8">
+                <br>
+                <label> Name player1</label>
+                <input id="player1" type="text">
+                <br>
+                <label> Name player2</label>
+                <input id="player2" type="text">
+                <br>
+                <button id="startGame">START </button>
+            </div>
+            <div id="toggel1">
+                <img src="./public/img/reset.png" width="70" height="50">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./public/js/js.js"></script>
+
+</html>
